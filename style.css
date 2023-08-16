@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://t3.ftcdn.net/jpg/00/86/56/12/240_F_86561234_8HJdzg2iBlPap18K38mbyetKfdw1oNrm.jpg");
+    background-size: cover;"
+    background-position: center ;
+}
+.navbar{
+    width: 90%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.logo{
+    width: 130px;
+    cursor: pointer;
+    
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    cursor: pointer;
+    font-size: 30px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: arial;
+    font-weight: normal;
+    transition: o.4s ease-in-out;
+    cursor: pointer;
+    text-shadow: 2px 1px 1px rgba(241, 19, 52, 0.777);
+
+}
+.navbar ul li a:hover{
+    color: rgb(251, 79, 21);
+}
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fbbb44;
+    text-shadow: 2px -1px 2px rgba(186, 245, 26, 0.915);
+}
+.content h1{
+    font-size: 400%;
+    margin-top: 110px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.content p{
+    margin: 10px auto;
+    font-weight: 20%;
+    line-height: 25px;
+    font-size: 150%;
+}
+button{
+    width: 250px;
+    padding: 20px 0;
+    text-align: center;
+    margin: 30px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px  solid #119ac4;
+    background: transparent;
+    color: #e7eaeb;
+    cursor: pointer;
+    position: relative;
+    font-weight: bold;
+}
+span{
+    background: #08d3de;
+    height: 100%;
+    width: 0%;
+    border-radius: 25%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+button:hover span{
+    width: 100%;
+}
+button:hover{
+    border: none;
+
+}
